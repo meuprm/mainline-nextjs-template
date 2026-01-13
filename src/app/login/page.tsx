@@ -24,18 +24,18 @@ const Login = () => {
                   height={18}
                   className="mb-7 dark:invert"
                 />
-                <p className="mb-2 text-2xl font-bold">Welcome back</p>
+                <p className="mb-2 text-2xl font-bold">Bem-vindo de volta</p>
                 <p className="text-muted-foreground">
-                  Please enter your details.
+                  Por favor, insira seus dados.
                 </p>
               </CardHeader>
               <CardContent>
                 <div className="grid gap-4">
-                  <Input type="email" placeholder="Enter your email" required />
+                  <Input type="email" placeholder="Digite seu email" required />
                   <div>
                     <Input
                       type="password"
-                      placeholder="Enter your password"
+                      placeholder="Digite sua senha"
                       required
                     />
                   </div>
@@ -49,25 +49,25 @@ const Login = () => {
                         htmlFor="remember"
                         className="text-sm leading-none font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                       >
-                        Remember me
+                        Lembrar de mim
                       </label>
                     </div>
                     <a href="#" className="text-primary text-sm font-medium">
-                      Forgot password
+                      Esqueci a senha
                     </a>
                   </div>
                   <Button type="submit" className="mt-2 w-full">
-                    Create an account
+                    Entrar
                   </Button>
                   <Button variant="outline" className="w-full">
                     <FcGoogle className="mr-2 size-5" />
-                    Sign up with Google
+                    Entrar com Google
                   </Button>
                 </div>
                 <div className="text-muted-foreground mx-auto mt-8 flex justify-center gap-1 text-sm">
-                  <p>Don&apos;t have an account?</p>
+                  <p>Não tem uma conta?</p>
                   <Link href="/signup" className="text-primary font-medium">
-                    Sign up
+                    Cadastre-se
                   </Link>
                 </div>
               </CardContent>

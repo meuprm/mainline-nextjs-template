@@ -63,29 +63,28 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mainline - Modern Next.js Template",
-    template: "%s | Mainline",
+    default: "PipeHub - Automação de Documentos e Assinaturas Digitais",
+    template: "%s | PipeHub",
   },
   description:
-    "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+    "Conecte seus CRMs, gere documentos personalizados e colete assinaturas digitais em workflows automatizados. Integração com HubSpot, ClickSign, ZapSign e muito mais.",
   keywords: [
-    "Next.js",
-    "nextjs template",
-    "nextjs theme",
-    "nextjs starter",
-    "shadcn template",
-    "shadcn theme",
-    "shadcn starter",
-    "tailwind template",
-    "tailwind theme",
-    "tailwind starter",
-    "mdx template",
-    "mdx theme",
-    "mdx starter",
+    "automação de documentos",
+    "assinatura digital",
+    "CRM",
+    "HubSpot",
+    "ClickSign",
+    "ZapSign",
+    "workflow",
+    "automação de vendas",
+    "geração de contratos",
+    "propostas comerciais",
+    "DocuSign",
+    "Adobe Sign",
   ],
-  authors: [{ name: "shadcnblocks.com" }],
-  creator: "shadcnblocks.com",
-  publisher: "shadcnblocks.com",
+  authors: [{ name: "PipeHub" }],
+  creator: "PipeHub",
+  publisher: "PipeHub",
   robots: {
     index: true,
     follow: true,
@@ -102,26 +101,26 @@ export const metadata: Metadata = {
     shortcut: [{ url: "/favicon/favicon.ico" }],
   },
   openGraph: {
-    title: "Mainline - Modern Next.js Template",
+    title: "PipeHub - Automação de Documentos e Assinaturas Digitais",
     description:
-      "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
-    siteName: "Mainline",
+      "Conecte seus CRMs, gere documentos personalizados e colete assinaturas digitais em workflows automatizados.",
+    siteName: "PipeHub",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mainline - Modern Next.js Template",
+        alt: "PipeHub - Automação de Documentos e Assinaturas Digitais",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mainline - Modern Next.js Template",
+    title: "PipeHub - Automação de Documentos e Assinaturas Digitais",
     description:
-      "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "Conecte seus CRMs, gere documentos personalizados e colete assinaturas digitais em workflows automatizados.",
     images: ["/og-image.jpg"],
-    creator: "@ausrobdev",
+    creator: "@pipehub",
   },
 };
 
@@ -131,7 +130,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <script
           async

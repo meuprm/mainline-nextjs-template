@@ -10,52 +10,52 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   {
-    title: "Support",
+    title: "Suporte",
     questions: [
       {
-        question: "How do I update my account without breaking my laptop?",
+        question: "Como funciona a integração com meu CRM?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "PipeHub se conecta nativamente com HubSpot, Salesforce, Pipedrive e outros CRMs populares. A configuração é simples e leva apenas alguns minutos.",
       },
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "O suporte é gratuito?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Sim! Todos os planos incluem suporte por email. Planos profissionais e enterprise têm suporte prioritário com SLA garantido.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "Posso personalizar os templates de documentos?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Sim! Você pode criar templates totalmente personalizados usando variáveis dinâmicas que são preenchidas automaticamente com dados do seu CRM.",
       },
     ],
   },
   {
-    title: "Your account",
+    title: "Sua conta",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Como faço para adicionar mais usuários?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Você pode adicionar usuários a qualquer momento através das configurações da conta. No plano gratuito, você tem até 3 usuários.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "Posso cancelar a qualquer momento?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Sim, você pode cancelar sua assinatura a qualquer momento sem taxas de cancelamento. Seus dados ficam disponíveis por 30 dias após o cancelamento.",
       },
     ],
   },
   {
-    title: "Other questions",
+    title: "Outras questões",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Quais plataformas de assinatura digital vocês suportam?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Atualmente suportamos ClickSign, ZapSign, DocuSign e Adobe Sign. Estamos sempre adicionando novas integrações.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "Meus dados estão seguros?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Sim! Usamos criptografia de ponta a ponta, armazenamento em servidores seguros e cumprimos com LGPD. Seus dados são sempre privados e protegidos.",
       },
     ],
   },
@@ -77,17 +77,17 @@ export const FAQ = ({
           <div className="space-y-4">
             {headerTag === "h1" ? (
               <h1 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Perguntas frequentes
               </h1>
             ) : (
               <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Perguntas frequentes
               </h2>
             )}
             <p className="text-muted-foreground max-w-md leading-snug lg:mx-auto">
-              If you can't find what you're looking for,{" "}
+              Não encontrou o que procura?{" "}
               <Link href="/contact" className="underline underline-offset-4">
-                get in touch
+                Entre em contato
               </Link>
               .
             </p>

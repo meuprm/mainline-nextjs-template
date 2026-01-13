@@ -17,59 +17,59 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
-    author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    quote: "PipeHub reduziu nosso tempo de fechamento de contratos em 70%!",
+    author: "Ana Silva",
+    role: "Gerente de Vendas",
+    company: "Tech Solutions BR",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
-    author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    quote: "A integração com HubSpot e ClickSign é perfeita. Automatizamos tudo.",
+    author: "Carlos Mendes",
+    role: "Diretor Comercial",
+    company: "Innovate Co",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Finalmente conseguimos escalar nosso processo de vendas sem contratar mais pessoas.",
+    author: "Mariana Costa",
+    role: "CEO",
+    company: "StartHub",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
-    author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "A geração automática de propostas economiza horas do meu time todo dia.",
+    author: "Roberto Lima",
+    role: "Head de Operações",
+    company: "SalesForce Brasil",
     image: "/testimonials/kundo-marta.webp",
   },
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
-    author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    quote: "PipeHub reduziu nosso tempo de fechamento de contratos em 70%!",
+    author: "Ana Silva",
+    role: "Gerente de Vendas",
+    company: "Tech Solutions BR",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
-    author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    quote: "A integração com HubSpot e ClickSign é perfeita. Automatizamos tudo.",
+    author: "Carlos Mendes",
+    role: "Diretor Comercial",
+    company: "Innovate Co",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Finalmente conseguimos escalar nosso processo de vendas sem contratar mais pessoas.",
+    author: "Mariana Costa",
+    role: "CEO",
+    company: "StartHub",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
-    author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "A geração automática de propostas economiza horas do meu time todo dia.",
+    author: "Roberto Lima",
+    role: "Head de Operações",
+    company: "SalesForce Brasil",
     image: "/testimonials/kundo-marta.webp",
   },
 ];
@@ -87,15 +87,13 @@ export const Testimonials = ({
         <div className="container">
           <div className="space-y-4">
             <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              Trusted by product builders
+              Confiado por empresas inovadoras
             </h2>
             <p className="text-muted-foreground max-w-md leading-snug">
-              Mainline is built on the habits that make the best product teams
-              successful: staying focused, moving quickly, and always aiming for
-              high-quality work.
+              PipeHub ajuda empresas de todos os tamanhos a automatizar processos, economizar tempo e fechar mais negócios com menos esforço.
             </p>
             <Button variant="outline" className="shadow-md">
-              Read our Customer Stories <ArrowRight className="size-4" />
+              Leia casos de sucesso <ArrowRight className="size-4" />
             </Button>
           </div>
 

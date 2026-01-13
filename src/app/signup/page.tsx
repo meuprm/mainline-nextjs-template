@@ -23,37 +23,37 @@ const Signup = () => {
                   height={18}
                   className="mb-7 dark:invert"
                 />
-                <p className="mb-2 text-2xl font-bold">Start your free trial</p>
+                <p className="mb-2 text-2xl font-bold">Comece seu teste gratuito</p>
                 <p className="text-muted-foreground">
-                  Sign up in less than 2 minutes.
+                  Cadastre-se em menos de 2 minutos.
                 </p>
               </CardHeader>
               <CardContent>
                 <div className="grid gap-4">
-                  <Input type="text" placeholder="Enter your name" required />
-                  <Input type="email" placeholder="Enter your email" required />
+                  <Input type="text" placeholder="Digite seu nome" required />
+                  <Input type="email" placeholder="Digite seu email" required />
                   <div>
                     <Input
                       type="password"
-                      placeholder="Enter your password"
+                      placeholder="Digite sua senha"
                       required
                     />
                     <p className="text-muted-foreground mt-1 text-sm">
-                      Must be at least 8 characters.
+                      Deve ter pelo menos 8 caracteres.
                     </p>
                   </div>
                   <Button type="submit" className="mt-2 w-full">
-                    Create an account
+                    Criar conta
                   </Button>
                   <Button variant="outline" className="w-full">
                     <FcGoogle className="mr-2 size-5" />
-                    Sign up with Google
+                    Cadastrar com Google
                   </Button>
                 </div>
                 <div className="text-muted-foreground mx-auto mt-8 flex justify-center gap-1 text-sm">
-                  <p>Already have an account?</p>
+                  <p>Já tem uma conta?</p>
                   <Link href="/login" className="text-primary font-medium">
-                    Log in
+                    Entrar
                   </Link>
                 </div>
               </CardContent>

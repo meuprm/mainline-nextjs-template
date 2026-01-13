@@ -9,49 +9,49 @@ import { DashedLine } from "@/components/dashed-line";
 
 const contactInfo = [
   {
-    title: "Corporate office",
+    title: "Escritório",
     content: (
       <p className="text-muted-foreground mt-3">
-        1 Carlsberg Close
+        São Paulo - SP
         <br />
-        1260 Hillview, Australia
+        Brasil
       </p>
     ),
   },
   {
-    title: "Email us",
+    title: "Envie um email",
     content: (
       <div className="mt-3">
         <div>
-          <p className="">Careers</p>
+          <p className="">Carreiras</p>
           <Link
-            href="mailto:careers@example.com"
+            href="mailto:carreiras@pipehub.com.br"
             className="text-muted-foreground hover:text-foreground"
           >
-            careers@example.com
+            carreiras@pipehub.com.br
           </Link>
         </div>
         <div className="mt-1">
-          <p className="">Press</p>
+          <p className="">Suporte</p>
           <Link
-            href="mailto:press@example.com"
+            href="mailto:suporte@pipehub.com.br"
             className="text-muted-foreground hover:text-foreground"
           >
-            press@example.com
+            suporte@pipehub.com.br
           </Link>
         </div>
       </div>
     ),
   },
   {
-    title: "Follow us",
+    title: "Siga-nos",
     content: (
       <div className="mt-3 flex gap-6 lg:gap-10">
         <Link href="#" className="text-muted-foreground hover:text-foreground">
           <Facebook className="size-5" />
         </Link>
         <Link
-          href="https://x.com/ausrobdev"
+          href="#"
           className="text-muted-foreground hover:text-foreground"
         >
           <Twitter className="size-5" />
@@ -69,10 +69,10 @@ export default function Contact() {
     <section className="py-28 lg:py-32 lg:pt-44">
       <div className="container max-w-2xl">
         <h1 className="text-center text-2xl font-semibold tracking-tight md:text-4xl lg:text-5xl">
-          Contact us
+          Entre em contato
         </h1>
         <p className="text-muted-foreground mt-4 text-center leading-snug font-medium lg:mx-auto">
-          Hopefully this form gets through our spam filters.
+          Estamos aqui para ajudar. Responderemos o mais rápido possível.
         </p>
 
         <div className="mt-10 flex justify-between gap-8 max-sm:flex-col md:mt-14 lg:mt-20 lg:gap-12">
@@ -88,7 +88,7 @@ export default function Contact() {
 
         {/* Inquiry Form */}
         <div className="mx-auto">
-          <h2 className="mb-4 text-lg font-semibold">Inquiries</h2>
+          <h2 className="mb-4 text-lg font-semibold">Perguntas</h2>
           <ContactForm />
         </div>
       </div>

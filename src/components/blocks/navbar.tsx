@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { ChevronRight, Github } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -22,26 +22,26 @@ import { cn } from "@/lib/utils";
 
 const ITEMS = [
   {
-    label: "Features",
+    label: "Funcionalidades",
     href: "#features",
     dropdownItems: [
       {
-        title: "Modern product teams",
+        title: "Automação de documentos",
         href: "/#feature-modern-teams",
         description:
-          "Mainline is built on the habits that make the best product teams successful",
+          "Gere contratos, propostas e documentos personalizados automaticamente",
       },
       {
-        title: "Resource Allocation",
+        title: "Integrações",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "Conecte seus CRMs e ferramentas favoritas em um só lugar",
       },
     ],
   },
-  { label: "About Us", href: "/about" },
-  { label: "Pricing", href: "/pricing" },
+  { label: "Sobre nós", href: "/about" },
+  { label: "Preços", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contato", href: "/contact" },
 ];
 
 export const Navbar = () => {
@@ -122,16 +122,9 @@ export const Navbar = () => {
           <ThemeToggle />
           <Link href="/login" className="max-lg:hidden">
             <Button variant="outline">
-              <span className="relative z-10">Login</span>
+              <span className="relative z-10">Entrar</span>
             </Button>
           </Link>
-          <a
-            href="https://github.com/shadcnblocks/mainline-nextjs-template"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Github className="size-4" />
-            <span className="sr-only">GitHub</span>
-          </a>
 
           {/* Hamburger Menu Button (Mobile Only) */}
           <button
