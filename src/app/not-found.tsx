@@ -5,6 +5,8 @@ import { ArrowLeft } from "lucide-react";
 import { Background } from "@/components/background";
 import { Button } from "@/components/ui/button";
 
+export const dynamic = 'force-dynamic';
+
 export default function NotFound() {
   return (
     <Background>

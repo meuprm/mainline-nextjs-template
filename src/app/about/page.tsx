@@ -4,6 +4,8 @@ import { AboutHero } from "@/components/blocks/about-hero";
 import { Investors } from "@/components/blocks/investors";
 import { DashedLine } from "@/components/dashed-line";
 
+export const dynamic = 'force-dynamic';
+
 export default function AboutPage() {
   return (
     <Background>

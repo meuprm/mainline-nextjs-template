@@ -7,6 +7,8 @@ import { Pricing } from "@/components/blocks/pricing";
 import { ResourceAllocation } from "@/components/blocks/resource-allocation";
 import { Testimonials } from "@/components/blocks/testimonials";
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <>
