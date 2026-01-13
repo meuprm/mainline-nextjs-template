@@ -5,7 +5,6 @@ import type { Metadata } from "next";
 
 import { Footer } from "@/components/blocks/footer";
 import { Navbar } from "@/components/blocks/navbar";
-import { StyleGlideProvider } from "@/components/styleglide-provider";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/globals.css";
 
@@ -62,6 +61,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://pipehub.com.br'),
   title: {
     default: "PipeHub - Automação de Documentos e Assinaturas Digitais",
     template: "%s | PipeHub",
@@ -138,7 +138,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <StyleGlideProvider />
           <Navbar />
           <main className="">{children}</main>
           <Footer />
